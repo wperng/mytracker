@@ -30,3 +30,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://melissahoughton.dev/2020/07/12/angular-material.html
 https://stackoverflow.com/questions/43200545/create-a-responsive-toolbar-using-angular-material
 https://www.techiediaries.com/angular-material-navigation-toolbar-sidenav/
+https://www.positronx.io/create-login-ui-template-with-angular-8-material-design/
