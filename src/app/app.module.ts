@@ -11,12 +11,16 @@ import { MatSidenavModule } from  '@angular/material/sidenav';
 import { MatListModule } from  '@angular/material/list';
 import { MatButtonModule } from  '@angular/material/button';
 import { LogInComponent } from './components/log-in/log-in.component';
+import { HomeComponent } from './components/home/home.component';
+import { TrackerlistComponent } from './components/trackerlist/trackerlist.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogInComponent
+    LogInComponent,
+    HomeComponent,
+    TrackerlistComponent
   ],
   imports: [
     AppRoutingModule,
