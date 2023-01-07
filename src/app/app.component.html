@@ -17,11 +17,9 @@
       </div>
       -->
     <span class="menubar-spacer"></span>
-
-    <a [routerLink]="['/login']">
-      <button mat-icon-button title="Please login">
-        <mat-icon>login</mat-icon>
-      </button>
+    
+    <a mat-button [routerLink]="['/login']" routerLinkActive="active">
+        <mat-icon>login</mat-icon> Log In
     </a>
 
   </mat-toolbar-row>
