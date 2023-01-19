@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { LogInComponent } from './components/log-in/log-in.component';
+import { LogInComponent } from './components/logIn/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { TrackerlistComponent } from './components/trackerlist/trackerlist.component';
 
