@@ -32,3 +32,5 @@ https://stackoverflow.com/questions/43200545/create-a-responsive-toolbar-using-a
 https://www.techiediaries.com/angular-material-navigation-toolbar-sidenav/
 https://www.positronx.io/create-login-ui-template-with-angular-8-material-design/
 https://betterprogramming.pub/add-breadcrumbs-to-your-angular-app-in-just-5-minutes-3119e376e901
+https://dzone.com/articles/angular-5-material-design-login-application
+https://www.tutorialspoint.com/angular8/angular8_authentication_and_authorization.htm
