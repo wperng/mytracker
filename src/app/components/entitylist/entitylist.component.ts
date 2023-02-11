@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-trackerlist',
-  templateUrl: './entitylist.component.html',
-  styleUrls: ['./entitylist.component.css']
+  selector: 'app-entityList',
+  templateUrl: './entityList.component.html',
+  styleUrls: ['./entityList.component.css']
 })
-export class EntitylistComponent {
+export class EntityListComponent {
 
 }

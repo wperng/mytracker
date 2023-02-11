@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TrackerlistComponent } from './entitylist.component';
+import { EntityListComponent } from './entityList.component';
 
-describe('TrackerlistComponent', () => {
-  let component: TrackerlistComponent;
-  let fixture: ComponentFixture<TrackerlistComponent>;
+describe('EntityListComponent', () => {
+  let component: EntityListComponent;
+  let fixture: ComponentFixture<EntityListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TrackerlistComponent ]
+      declarations: [ EntityListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TrackerlistComponent);
+    fixture = TestBed.createComponent(EntityListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FormGroup, FormControl } from '@angular/forms';
+import { FormGroup, FormControl, FormControlState, Validators} from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 
@@ -10,12 +10,24 @@ import { Router } from '@angular/router';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LogInComponent implements OnInit {
-  userName!: string;
-  password!: string;
-  formData!: FormGroup<any>;
+export class LoginComponent implements OnInit {
+
+  userName: string;
+  password: string;
+  formData: FormGroup;
   
-  constructor(private authService: AuthService, private router: Router) {}
+  constructor(private authService: AuthService, private router: Router) {
+    
+    this.userName = '';
+    this.password = '';
+    this.formData = new FormGroup({
+      email: new FormControl('', {
+        validators: [Validators.required, Validators.email]
+      }),
+      password: new FormControl('', { validators: [Validators.required] })
+    });
+    
+  }
 
   ngOnInit() {
     this.formData = new FormGroup({
