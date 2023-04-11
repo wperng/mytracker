@@ -1,23 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
-import { FormGroup, FormControl, FormControlState, Validators} from '@angular/forms';
+import { FormGroup, FormControl, FormControlState, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
-
 
 @Component({
   selector: 'app-root',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
 
   userName: string;
   password: string;
   formData: FormGroup;
-  
+
   constructor(private authService: AuthService, private router: Router) {
-    
+
     this.userName = '';
     this.password = '';
     this.formData = new FormGroup({
@@ -26,12 +26,12 @@ export class LoginComponent implements OnInit {
       }),
       password: new FormControl('', { validators: [Validators.required] })
     });
-    
+
   }
 
   ngOnInit() {
     this.formData = new FormGroup({
-      userName: new FormControl("admin"),
+      userName: new FormControl("admin@test.com"),
       password: new FormControl("admin"),
     });
   }
@@ -46,8 +46,9 @@ export class LoginComponent implements OnInit {
     this.authService.login(this.userName, this.password)
       .subscribe((data: string) => {
         console.log("Is Login Success: " + data);
-
-        if (data) this.router.navigate(['/expenses']);
+        
+        if (data) 
+          this.router.navigate(['/']);
       });
   }
 }

@@ -34,3 +34,10 @@ https://www.positronx.io/create-login-ui-template-with-angular-8-material-design
 https://betterprogramming.pub/add-breadcrumbs-to-your-angular-app-in-just-5-minutes-3119e376e901
 https://dzone.com/articles/angular-5-material-design-login-application
 https://www.tutorialspoint.com/angular8/angular8_authentication_and_authorization.htm
+https://github.com/cornflourblue/angular-8-registration-login-example/tree/master/src/app
+https://dev-academy.com/angular-user-login-and-registration-guide-cookies-and-jwt/
+https://danielk.tech/home/angular-login-page-and-complete-authentication-demo
+
+## Task
+1. How to update log in/log out on menu bar
+2. message bar
