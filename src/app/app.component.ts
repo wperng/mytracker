@@ -8,7 +8,7 @@ import { AuthService } from './services/auth.service';
 })
 export class AppComponent implements OnInit {
   title = 'SOA UI';
-  public isUserLoggedIn: boolean = false;
+  public isUserLoggedIn: Observable<boolean> = false;
 
   constructor(private authService: AuthService) {
   }
