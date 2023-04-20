@@ -37,6 +37,7 @@ https://www.tutorialspoint.com/angular8/angular8_authentication_and_authorizatio
 https://github.com/cornflourblue/angular-8-registration-login-example/tree/master/src/app
 https://dev-academy.com/angular-user-login-and-registration-guide-cookies-and-jwt/
 https://danielk.tech/home/angular-login-page-and-complete-authentication-demo
+https://stackblitz.com/edit/angular-login-hide-navbar-ngif?file=src%2Fapp%2Fauth%2Fauth.service.ts
 
 ## Task
 1. How to update log in/log out on menu bar
